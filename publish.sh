@@ -1,6 +1,6 @@
-hugo --cleanDestinationDi#!/bin/bash
+#!/bin/bash
 
-hugo
+hugo --cleanDestinationDir
 
 git add .
 
