@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Philosophical Investigations</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ "style.css" | relURL }}">
+    <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+</head>
+
+<body class="home-page">
+
+    <header>
+
+<h1>
+    Philosophical Investigations
+</h1>
+
+<p class="tagline">
+    Notes from a
+    <a href="{{ (site.GetPage "me").RelPermalink }}">linguistic animal</a>
+</p>
+    </header>
+
+    <main>
+
+        <section class="writings">
+
+{{ range where .Site.RegularPages "Section" "posts" }}
+
+<article>
+    <h2>
+        <a href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+    </h2>
+</article>
+
+{{ end }}
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026, z.h.</p>
+    </footer>
+
+</body>
+
+</html>
