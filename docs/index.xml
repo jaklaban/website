@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 19 Sep 2026 06:33:21 +0300</lastBuildDate>
 		
 			<atom:link href="https://jaklaban.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>First Essay</title>
+				<link>https://jaklaban.github.io/website/posts/test-essay/</link>
+				<pubDate>Sat, 19 Sep 2026 06:33:21 +0300</pubDate>
+				<guid>https://jaklaban.github.io/website/posts/test-essay/</guid>
+				<description>&lt;p&gt;yazdık bi şeyler vallaa&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Notes on the Sorites Paradox</title>
 				<link>https://jaklaban.github.io/website/posts/sorites/</link>
