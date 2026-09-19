@@ -1,4 +1,4 @@
-#!/bin/bash
+hugo --cleanDestinationDi#!/bin/bash
 
 hugo
 
