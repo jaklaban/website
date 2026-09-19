@@ -20,19 +20,5 @@
 				<guid>https://jaklaban.github.io/website/posts/sorites/</guid>
 				<description>&lt;p&gt;Deneme&lt;/p&gt;</description>
 			</item>
-			<item>
-				<title>The Nature of Weak Assertion</title>
-				<link>https://jaklaban.github.io/website/posts/weak-assertion/</link>
-				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>https://jaklaban.github.io/website/posts/weak-assertion/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>The Problem of Weak Rejection</title>
-				<link>https://jaklaban.github.io/website/posts/weak-rejection/</link>
-				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>https://jaklaban.github.io/website/posts/weak-rejection/</guid>
-				<description></description>
-			</item>
 	</channel>
 </rss>
